@@ -706,7 +706,7 @@ now contain a `!` prefix. For example, rather than `mydomain.com/#/a/b/c` the UR
 `mydomain.com/#!/a/b/c`.
 
 If you actually want to have no hash-prefix, then you can restore the previous behavior by adding a
-configuration block to you application:
+configuration block to your application:
 
 ```js
 appModule.config(['$locationProvider', function($locationProvider) {
